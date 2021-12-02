@@ -26,7 +26,4 @@
 
 Cypress.Commands.add("Login", () => {
     cy.visit("http://localhost:8888/enade/")
-    cy.get('#formLogin\\\:txtLogin').type("ze@ze.com.br")
-    cy.get('#formLogin\\\:txtSenha').type("123")
-    cy.get('#formLogin\\\:j_idt16 > .ui-button-text').click()
 })
